@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<watchface>
+    <element res_preview="A100_002.png" is_support_option="false" label="background">
+        <layer res_position="0,0" draw_type="single_res" res_active="A100_003.bmp" label="SglImage" index="0"/>
+    </element>
+    <element label="widget">
+        <option res_preview="" data_type="18" res_preview_border="" label="ViewMsg" index="0"/>
+        <option res_preview="" data_type="21" res_preview_border="" label="ViewWeather" index="1"/>
+        <option res_preview="" data_type="30" res_preview_border="" label="ViewTimer" index="2"/>
+        <option res_preview="" data_type="36" res_preview_border="" label="ViewMusic" index="3"/>
+        <option res_preview="" data_type="11" res_preview_border="" label="ViewHeart" index="4"/>
+        <container rect="0,75,106,90" selected_option="2" is_support_option="true" available_option="2" label="Btimer" index="0"/>
+        <option res_preview="" data_type="29" res_preview_border="" label="ViewStoptimer" index="5"/>
+        <container res_preview="" data_type="10" is_support_option="false" label="stp" index="1">
+            <layer value_type="0" text_active_color="#FFFFFFFF" draw_type="text" text_align="LEFT" text_font="148" text_rect="121,214,73,22" label="Text" index="0"/>
+        </container>
+        <container res_preview="" data_type="24" is_support_option="false" label="dist" index="2">
+            <layer value_type="146" text_active_color="#FFFFFFFF" draw_type="text" text_align="LEFT" text_font="148" text_rect="31,214,68,22" label="Text" index="0"/>
+        </container>
+        <container res_preview="" data_type="18" is_support_option="false" label="msg" index="3">
+            <layer value_type="72" res_position="141,39" draw_type="selected_res" res_active="A100_004.png,A100_005.png" label="SelImage" index="0"/>
+        </container>
+        <container res_preview="" data_type="21" is_support_option="false" label="pogoda" index="4">
+            <layer value_type="53" res_position="67,304" draw_type="selected_res" res_active="A100_006.png,A100_007.png,A100_008.png,A100_009.png,A100_010.png,A100_011.png,A100_012.png,A100_013.png,A100_014.png,A100_015.png,A100_016.png" label="SelImage" index="0"/>
+            <layer text_con_type="7" text_active_color="#EEEEEEFF" draw_type="text2_res" text_align="CENTER" text_font="164" text_rect="132,317,50,28" label="ConnText" index="1" value2_type="255" value1_type="4"/>
+            <layer value_type="27" text_active_color="#FFFFFFFF" draw_type="text" text_align="CENTER" text_font="127" text_rect="13,309,40,18" label="Text" index="2"/>
+            <layer value_type="28" text_active_color="#FFFFFFFF" draw_type="text" text_align="CENTER" text_font="127" text_rect="13,333,40,18" label="Text" index="3"/>
+        </container>
+        <container res_preview="" data_type="11" is_support_option="false" label="serdce" index="5">
+            <layer text_con_type="6" text_active_color="#FC4006FF" draw_type="text2_res" text_align="CENTER" text_font="163" text_rect="31,265,43,20" label="ConnText" index="0" value2_type="255" value1_type="2"/>
+        </container>
+        <container rect="138,35,50,50" selected_option="0" is_support_option="true" available_option="0" label="BMsg" index="6"/>
+        <container rect="0,304,194,60" selected_option="1" is_support_option="true" available_option="1" label="BWeather" index="7"/>
+        <container rect="0,260,96,40" selected_option="4" is_support_option="true" available_option="4" label="Bheart" index="8"/>
+        <container rect="109,80,85,80" selected_option="5" is_support_option="true" available_option="5" label="Date" index="9"/>
+        <container res_preview="" data_type="17" is_support_option="false" label="Batary" index="10">
+            <layer rect="144,15,29,13" value_type="163" res_name="A100_017.png" draw_type="line_res" label="LineImage" index="0"/>
+        </container>
+        <container res_preview="" data_type="15" is_support_option="false" label="Active" index="11">
+            <layer value_type="15" text_active_color="#FF0000FF" draw_type="text" text_align="CENTER" text_font="163" text_rect="97,265,28,20" label="Text" index="0"/>
+        </container>
+        <container res_preview="" data_type="17" is_support_option="false" label="Date" index="12">
+            <layer value_type="9" text_active_color="#FFFFFFB4" draw_type="text" text_align="CENTER" text_font="134" text_rect="142,9,35,20" label="Text" index="0"/>
+        </container>
+        <container res_preview="" data_type="16" is_support_option="false" label="Date" index="13">
+            <layer value_type="26" text_active_color="#075594FF" draw_type="text" text_align="LEFT" text_font="163" text_rect="154,265,40,20" label="Text" index="0"/>
+        </container>
+    </element>
+    <element is_support_option="false" label="date">
+        <layer text_con_type="6" text_active_color="#FFFFFFFF" draw_type="text2_res" text_align="CENTER" text_font="144" text_rect="35,8,33,21" label="ConnText" index="0" value2_type="255" value1_type="17"/>
+        <layer value_type="52" res_position="25,164" draw_type="selected_res" res_active="A100_018.png,A100_019.png,A100_020.png,A100_021.png,A100_022.png,A100_023.png,A100_018.png,A100_024.png" label="SelImage" index="1"/>
+        <layer value_type="51" res_position="73,15" draw_type="selected_res" res_active="A100_025.png,A100_026.png,A100_027.png,A100_028.png,A100_029.png,A100_030.png,A100_031.png,A100_032.png,A100_033.png,A100_034.png,A100_035.png,A100_036.png,A100_025.png" label="SelImage" index="2"/>
+    </element>
+    <element is_support_option="false" label="time">
+        <layer value_type="59" res_position="2,67" draw_type="selected_res" res_active="A100_037.png,A100_038.png,A100_039.png" label="HH" index="0"/>
+        <layer value_type="60" res_position="51,67" draw_type="selected_res" res_active="A100_037.png,A100_038.png,A100_039.png,A100_040.png,A100_041.png,A100_042.png,A100_043.png,A100_044.png,A100_045.png,A100_046.png" label="HL" index="1"/>
+        <layer value_type="61" res_position="103,87" draw_type="selected_res" res_active="A100_047.png,A100_048.png,A100_049.png,A100_050.png,A100_051.png,A100_052.png" label="MH" index="2"/>
+        <layer value_type="62" res_position="143,87" draw_type="selected_res" res_active="A100_047.png,A100_048.png,A100_049.png,A100_050.png,A100_051.png,A100_052.png,A100_053.png,A100_054.png,A100_055.png,A100_056.png" label="ML" index="3"/>
+        <layer rect="0,188,194,6" value_type="154" res_name="A100_057.png" draw_type="line_res" label="LineImage" index="4"/>
+    </element>
+</watchface>
